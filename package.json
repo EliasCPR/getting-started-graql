@@ -1,0 +1,21 @@
+{
+  "name": "graphql-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "dev:simple": "tsnd --respawn --transpile-only simple-server.ts",
+    "dev": "tsnd --respawn --transpile-only src/server.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "class-validator": "^0.13.2",
+    "graphql": "15.3.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  }
+}
